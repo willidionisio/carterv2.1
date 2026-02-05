@@ -19,19 +19,10 @@ Construído para ser simples de manter, fácil de evoluir e seguro no uso do dia
 
 ## 🧱 Estrutura do Projeto
 
-
----
-
-## 🔐 Segurança (IMPORTANTE)
-
-Não suba seu `config.json` com token no repositório.
-
-Use `.env` (recomendado) ou mantenha `config.json` fora do Git com `.gitignore`.
-
----
-
-## 🚀 Setup rápido
-
-1) Instale dependências:
-```bash
-npm install
+├─ index.js
+├─ deploy-commands.js
+├─ commands/
+├─ interactions/
+├─ utils/
+├─ database/
+└─ config.json
